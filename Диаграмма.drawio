@@ -1,0 +1,128 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0" version="26.0.10">
+  <diagram name="Страница — 1" id="ocxqq5EhkebSTBUKa830">
+    <mxGraphModel dx="2032" dy="2282" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QFR_fkobPdCCzH-Lz_Cs-1" value="Partner" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-1130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QFR_fkobPdCCzH-Lz_Cs-2" value="&amp;nbsp;Partner_Sale" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="-1130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QFR_fkobPdCCzH-Lz_Cs-3" value="Product" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="-1130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QFR_fkobPdCCzH-Lz_Cs-5" value="Product_Material" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="-1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QFR_fkobPdCCzH-Lz_Cs-6" value="Material" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="-1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QFR_fkobPdCCzH-Lz_Cs-7" value="Supplier" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QFR_fkobPdCCzH-Lz_Cs-11" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QFR_fkobPdCCzH-Lz_Cs-1" target="QFR_fkobPdCCzH-Lz_Cs-2">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="330" y="-700" as="sourcePoint" />
+            <mxPoint x="430" y="-800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFR_fkobPdCCzH-Lz_Cs-13" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QFR_fkobPdCCzH-Lz_Cs-3" target="QFR_fkobPdCCzH-Lz_Cs-2">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="470" y="-590" as="sourcePoint" />
+            <mxPoint x="570" y="-690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFR_fkobPdCCzH-Lz_Cs-14" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QFR_fkobPdCCzH-Lz_Cs-3" target="QFR_fkobPdCCzH-Lz_Cs-5">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="650" y="-1050" as="sourcePoint" />
+            <mxPoint x="520" y="-990" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="-990" />
+              <mxPoint x="640" y="-1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFR_fkobPdCCzH-Lz_Cs-15" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QFR_fkobPdCCzH-Lz_Cs-7" target="QFR_fkobPdCCzH-Lz_Cs-6">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="340" y="-650" as="sourcePoint" />
+            <mxPoint x="440" y="-750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFR_fkobPdCCzH-Lz_Cs-16" value="Partner" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-930" width="230" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="QFR_fkobPdCCzH-Lz_Cs-17" value="&lt;div&gt;-int partnerId&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -String partnerType&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -String companyName&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -String legalAddress&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -String inn&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -String directorName&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -String phone&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -String email&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -String logo&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -int rating&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -int discount&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;+List&amp;lt;PartnerSale&amp;gt;getSalesHistory()&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +void addSale(PartnerSale sale)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="QFR_fkobPdCCzH-Lz_Cs-16">
+          <mxGeometry y="30" width="230" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="QFR_fkobPdCCzH-Lz_Cs-20" value="PartnerSale" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="-890" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QFR_fkobPdCCzH-Lz_Cs-21" value="&lt;div&gt;-int saleId&lt;/div&gt;&lt;div&gt;-Partner partner&lt;/div&gt;&lt;div&gt;&amp;nbsp;-Product product&lt;/div&gt;&lt;div&gt;&amp;nbsp;-Date saleDate&lt;/div&gt;&lt;div&gt;&amp;nbsp; -int quantity&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="QFR_fkobPdCCzH-Lz_Cs-20">
+          <mxGeometry y="30" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="QFR_fkobPdCCzH-Lz_Cs-24" value="MaterialCalculator" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="-440" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QFR_fkobPdCCzH-Lz_Cs-25" value="+int calculateMaterial(int productId, int materialId, int productQuantity, double param1, double param2)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="QFR_fkobPdCCzH-Lz_Cs-24">
+          <mxGeometry y="30" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QFR_fkobPdCCzH-Lz_Cs-28" value="Supplier" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="-430" width="176" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="QFR_fkobPdCCzH-Lz_Cs-29" value="&lt;div&gt;&amp;nbsp;-int supplierId&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -String supplierType&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -String supplierName&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;-String inn&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="QFR_fkobPdCCzH-Lz_Cs-28">
+          <mxGeometry y="30" width="176" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QFR_fkobPdCCzH-Lz_Cs-32" value="Product" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-910" width="250" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="QFR_fkobPdCCzH-Lz_Cs-33" value="-int productId&#xa;        -String article&#xa;        -String productType&#xa;        -String productName&#xa;         -String description&#xa;        -String image&#xa;         -decimal minPrice&#xa;         -decimal length&#xa;         -decimal width&#xa;         -decimal height&#xa;        -decimal weightWithoutPackaging&#xa;        -decimal weightWithPackaging&#xa;        -String certificate&#xa;         -String standardNumber&#xa;         -int productionTime&#xa;         -decimal costPrice&#xa;        -int workshopNumber&#xa;         -int personnelCount&#xa;         +List&lt;Material&gt; getMaterials()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="QFR_fkobPdCCzH-Lz_Cs-32">
+          <mxGeometry y="30" width="250" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="QFR_fkobPdCCzH-Lz_Cs-36" value="&amp;nbsp;Material" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="-750" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="QFR_fkobPdCCzH-Lz_Cs-37" value="&lt;div&gt;-int materialId&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;-String materialType&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; - String materialName&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -Supplier supplier&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;-int packageQuantity&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;-String unit&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;-String description&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;-String image&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;-decimal cost&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;-int stockQuantity&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;-int minQuantity&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="QFR_fkobPdCCzH-Lz_Cs-36">
+          <mxGeometry y="30" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="QFR_fkobPdCCzH-Lz_Cs-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.013;exitY=0.373;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QFR_fkobPdCCzH-Lz_Cs-17" target="QFR_fkobPdCCzH-Lz_Cs-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="-650" as="sourcePoint" />
+            <mxPoint x="450" y="-700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFR_fkobPdCCzH-Lz_Cs-45" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.007;exitY=0.233;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.987;entryY=0.262;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QFR_fkobPdCCzH-Lz_Cs-21" target="QFR_fkobPdCCzH-Lz_Cs-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="303" y="-793" as="sourcePoint" />
+            <mxPoint x="370" y="-805" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFR_fkobPdCCzH-Lz_Cs-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.008;exitY=0.545;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QFR_fkobPdCCzH-Lz_Cs-33" target="QFR_fkobPdCCzH-Lz_Cs-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="672" y="-510" as="sourcePoint" />
+            <mxPoint x="600" y="-503" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFR_fkobPdCCzH-Lz_Cs-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.569;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QFR_fkobPdCCzH-Lz_Cs-37" target="QFR_fkobPdCCzH-Lz_Cs-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="668" y="-550" as="sourcePoint" />
+            <mxPoint x="620" y="-385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFR_fkobPdCCzH-Lz_Cs-49" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.524;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QFR_fkobPdCCzH-Lz_Cs-24" target="QFR_fkobPdCCzH-Lz_Cs-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="445" y="-490" as="sourcePoint" />
+            <mxPoint x="442" y="-410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFR_fkobPdCCzH-Lz_Cs-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1.025;entryY=0.681;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QFR_fkobPdCCzH-Lz_Cs-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="691" y="-430" as="sourcePoint" />
+            <mxPoint x="494" y="-566.99" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
