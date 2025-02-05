@@ -1,0 +1,35 @@
+plugins {
+    id 'java'
+    id 'application' // Важно, чтобы вы включили application plugin
+}
+
+group = 'org.example' // Добавьте, если еще не определен
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation 'com.mysql:mysql-connector-j:8.0.33'  // Переместите сюда зависимости implementation
+}
+
+application {
+    mainClass = 'ui.MainFrame'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': "ui.MainFrame" // Укажите полное имя вашего главного класса (включая пакет)
+    }
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+
+
+    test {
+        useJUnitPlatform()
+    }
+}
